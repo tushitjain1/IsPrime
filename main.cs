@@ -20,7 +20,7 @@ class MainClass {
     }
     int len = mods.Count;
     foreach (int x in mods){
-      WriteLine(x);
+      WriteLine("Factor: {0}" , x);
     }
     if (len == 2){
       WriteLine("{0} is a prime number" , i);
